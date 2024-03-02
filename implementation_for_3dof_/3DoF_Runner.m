@@ -1,4 +1,4 @@
-function 3DoF_runner()
+function DoF_Runner()
 % Mahmoud Muhammad Yahaya's 3DOF  model implementation solve via NLS algo.
 % mahmoudpd@gmail.com
 clear;
@@ -9,7 +9,6 @@ Kmax = (tf - t0)/g; %
 
 theta0 = [0, pi/3, pi/2]; % the angle is measeured in radians
 thetamah = theta0;
-thetamah2 = theta0;
 
 tic;
 for k = 1:Kmax
